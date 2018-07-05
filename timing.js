@@ -1,13 +1,13 @@
 (function(){
 
-	BREAKLENGTH = 0.1;
-	ACTIVELENGTH = 0.2;
+	BREAKLENGTH = 5;
+	ACTIVELENGTH = 25;
 
 	active = true;
 	var body = document.getElementsByClassName("body")[0];
 	var tally = document.getElementById("tally");
 	var timer = document.getElementById("timer");
-	runTimer(0.2);
+	runTimer(ACTIVELENGTH);
 
 
 	function runTimer(minutes) {
