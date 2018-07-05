@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body" id="active">
+	<center>
+		<h1 id="timer">00:00</h1>
+		<div id="gauge">
+			<div class="arrow"></div>
+			<div class="markers">
+				<div id="first-marker"class="marker"></div>
+				<div class="marker middle-marker"></div>
+				<div class="marker middle-marker"></div>
+				<div class="marker middle-marker"></div>
+				<div class="marker middle-marker"></div>
+				<div class="marker middle-marker"></div>
+				<div class="marker middle-marker"></div>
+				<div class="marker middle-marker"></div>
+				<div class="marker middle-marker"></div>
+				<div class="marker middle-marker"></div>
+				<div id="last-marker" class="marker"></div>
+			</div>
+			<div id="tally">
+			</div>
+		</div>
+	</center>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineMax.min.js"></script>
+<script type="text/javascript" src="gauge.js"></script>
+<script type="text/javascript" src="timing.js"></script>
+</html>

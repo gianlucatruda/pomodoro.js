@@ -1,0 +1,66 @@
+body {
+	background-color: black;
+	font-family: helvetica;
+	color: white;
+	text-align: -webkit-center;
+}
+
+body#active{
+	background-color: #ff0900;
+}
+
+body#break{
+	background-color: #00b300;
+}
+
+h1, h2, h3, p {
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	margin-top: 100px;
+	size: 50px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.arrow {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid white;
+}
+
+.marker {
+	display: inline-block;
+  height: 25px;
+  width: 5px;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#tally {
+	display: inline-flex;
+	margin-top: 20px;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.circle#inactive {
+	visibility: hidden;
+}
+
+.circle#active {
+	visibility: show;
+}
